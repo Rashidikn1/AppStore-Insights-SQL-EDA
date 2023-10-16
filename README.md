@@ -53,3 +53,32 @@ WHERE app_desc IS NULL
 ```
 
 ## Basic EDA
+
+### Number of Apps per Genre
+
+We calculate the number of apps per genre to understand the distribution of app genres in the dataset.
+
+```sql
+-- Calculate the number of apps per genre
+SELECT prime_genre, COUNT(*) AS NumApps
+FROM AppleStore
+GROUP BY prime_genre
+ORDER BY NumApps DESC
+```
+
+### App Ratings
+
+We examine the minimum, maximum, and average user ratings for all apps in the dataset.
+
+```sql
+-- Check app ratings
+SELECT MIN(user_rating) AS MinRating, MAX(user_rating) AS MaxRating, AVG(user_rating) AS AvgRating
+FROM AppleStore
+```
+
+
+
+
+
+
+
