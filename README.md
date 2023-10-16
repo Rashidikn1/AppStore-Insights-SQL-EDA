@@ -35,7 +35,7 @@ FROM AppleStore
 SELECT COUNT(DISTINCT id) AS UniqueAppIDs
 FROM appleStore_description
 
-## Missing Values
+### Missing Values
 
 We identify and count missing values in essential columns of the `AppleStore` and `appleStore_description` tables.
 
