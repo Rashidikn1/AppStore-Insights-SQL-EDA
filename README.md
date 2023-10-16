@@ -34,6 +34,7 @@ FROM AppleStore
 
 SELECT COUNT(DISTINCT id) AS UniqueAppIDs
 FROM appleStore_description
+```
 
 ### Missing Values
 
@@ -49,5 +50,6 @@ WHERE track_name IS NULL OR user_rating IS NULL OR prime_genre IS NULL
 SELECT COUNT(*) AS MissingValues
 FROM appleStore_description
 WHERE app_desc IS NULL
+```
 
-
+## Basic EDA
