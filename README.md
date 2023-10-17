@@ -157,7 +157,7 @@ FROM (
 ) AS a
 WHERE a.rank = 1
 ```
-## Conclusion
+# Conclusion
 
 Our basic Exploratory Data Analysis (EDA) focused on understanding the distribution of apps across genres and exploring app ratings. We discovered that the Games genre had the highest number of apps, indicating a highly competitive market. On average, apps had a user rating of approximately 3.5, which served as a benchmark for further analysis.
 
